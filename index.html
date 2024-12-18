@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pools</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="login-body">
+    
+        <div class="box w-[620px] rounded-[25px] bg-white flex flex-col items-center justify-center p-[35px]">
+            <h1 class="uppercase font-['Signika'] text-[50px] leading-[31.6px] font-semibold text-[#009398] text-center">Intex-market.uz</h1>
+            <p class="sdv font-bold text-[25px] leanding-[29px] text-[#A3A3A3] text-center pt-[17px] pb-[76px]">Введите имя пользователя и пароль, чтобы получить доступ к системе.</p>
+            <form autocomplete="off" class="login-form flex flex-col items-center justify-center">
+                <input name="username" type="text" required placeholder="Имя пользователя" class="placeholder:font-bold placeholder:text-center placeholder:text-[25px] outline-none px-[58px] py-[15px] border-[1px] border-solid rounded-[20px] leanding-[29px] text-[25px] text-[#494949] shadow-[0px_0px_7px_0px_#00000040] text-center">
+                <input name="password" type="password" required placeholder="Пароль" class="mt-[16px] placeholder:font-bold placeholder:text-center placeholder:text-[25px] outline-none px-[58px] py-[15px] border-[1px] border-solid rounded-[20px] leanding-[29px] text-[25px] text-[#494949] shadow-[0px_0px_7px_0px_#00000040] text-center">
+                <button type="submit" class="login-btn w-[237px] h-[48px] text-white font-bold text-[25px] leanding-[29px] bg-[#3F8C8E] rounded-[15px] mt-[48px]">Войти</button>
+            </form>
+        </div>
+
+          <a href="producks.html"></a>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+    </script>
+    <script type="text/javascript" src="js/vanilla.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelector(".box"), {
+        max: 15,
+        speed: 400,
+      });
+    </script>
+    <script src="js/register.js"></script>
+</body>
+</html>
